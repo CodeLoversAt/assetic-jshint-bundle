@@ -1,0 +1,22 @@
+{
+    "name": "codelovers/assetic-jshint-bundle",
+    "description": "Symfony bundle that registers the codelovers/assetic-jshint filter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Holzmann",
+            "email": "d@velopment.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.1",
+        "kriswallsmith/assetic": "1.1.*@dev",
+        "codelovers/assetic-jshint": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "CodeLovers\\JsHintBundle": ""
+        }
+    }
+}
