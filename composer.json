@@ -18,5 +18,6 @@
         "psr-0": {
             "CodeLovers\\JsHintBundle": ""
         }
-    }
+    },
+    "target-dir": "CodeLovers/JsHintBundle"
 }
