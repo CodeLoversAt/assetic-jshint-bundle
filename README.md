@@ -5,11 +5,17 @@ This Symfony 2 Bundle registers an [Assetic](https://github.com/kriswallsmith/as
 
 ## Installation
 
-Install the bundle using composer (see [http://getcomposer.org/](http://getcomposer.org/) for more information about composer)
+Install the bundle using composer (see [http://getcomposer.org/](http://getcomposer.org/) for more information about composer) by adding it to your `composer.json` file and running `composer update`:
 
-    composer require codelovers/assetic-jshint-bundle dev-master
-    
-or add the package directly to your `composer.json` file and run `composer update`.
+```JavaScript
+    // composer.json
+
+    "require": {
+        // ...
+        "codelovers/assetic-jshint": "dev-master",
+        "codelovers/assetic-jshint-bundle": "dev-master"
+    }
+```
 
 Then just add the bundle to your `AppKernel.php` file:
 
